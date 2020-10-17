@@ -1,0 +1,20 @@
+.footer-container {
+    height: 580px;
+    background-color: #FBD062;
+}
+.form-input{
+    width: 500px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    padding-left: 10px;
+    outline: none;
+}
+.msg-input {
+    padding: 0 0 200px 10px;
+}
+.form-container{
+    padding-left: 250px;
+}

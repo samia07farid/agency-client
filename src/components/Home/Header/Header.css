@@ -1,0 +1,6 @@
+.header-container {
+    background: #FBD062;
+    height: 750px;
+    transform: skew(0deg, -5deg) translateY(-120px);
+    padding: 120px 0;                 
+}

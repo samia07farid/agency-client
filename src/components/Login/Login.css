@@ -1,0 +1,25 @@
+.google-icon{
+    height: 30px;
+    position: relative;
+    right: 90px;
+}
+.google-btn{
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+}
+.container{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 400px;
+    width: 570px;
+}
+.login-container{
+    margin-top: 50px;
+}
+.logo{
+    height: 50px;
+    position: relative;
+    left: 600px;
+}

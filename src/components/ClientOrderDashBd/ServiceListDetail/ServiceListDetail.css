@@ -1,0 +1,11 @@
+.main-card-container{
+    width: 350px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: white;
+}
+.card-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 178, 178);
+}
