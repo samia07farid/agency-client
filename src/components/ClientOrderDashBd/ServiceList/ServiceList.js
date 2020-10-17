@@ -11,7 +11,7 @@ const ServiceList = () => {
     const [seeOrdered, setSeeOrdered] = useState([]);
 
     useEffect( () => {
-        fetch('http://localhost:5000/seeOrder?email=' + loggedInUser.email)
+        fetch('https://shielded-lowlands-58151.herokuapp.com/seeOrder?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setSeeOrdered(data))
     }, [loggedInUser.email]);

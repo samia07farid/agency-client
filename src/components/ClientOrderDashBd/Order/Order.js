@@ -12,7 +12,7 @@ const Order = () => {
 
     const onSubmit = (data) => {
      
-        fetch('http://localhost:5000/placeOrder', {
+        fetch('https://shielded-lowlands-58151.herokuapp.com/placeOrder', {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json'

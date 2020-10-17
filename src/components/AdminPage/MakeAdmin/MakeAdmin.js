@@ -9,7 +9,7 @@ const MakeAdmin = () => {
     const { register, handleSubmit, errors } = useForm();
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/adminEmail', {
+        fetch('https://shielded-lowlands-58151.herokuapp.com/adminEmail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
