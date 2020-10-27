@@ -7,7 +7,7 @@ const ReviewDetail = ({ review }) => {
             <div className="review-card">
             <div className="d-flex justify-content-start">
                 <div>
-                    <img style={{height: '50px', borderRadius: '50%'}} src={require(`../../../images/${review.image}`)} alt="" />
+                    <img style={{height: '50px', borderRadius: '50%'}} src={require('../../../images/customer-1.png')} alt="" />
                 </div>
                 <div className="pl-3">
                     <h5><strong>{review.name}</strong></h5>
