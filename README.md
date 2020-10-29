@@ -1,27 +1,27 @@
-# Creative Agency
-#### Live Link: https://agency-f1fe7.web.app/
+# Volunteer Network
+#### Live Link: https://volunteer-network-282ef.web.app/
 
 ### Features:-
--  Firebase google authentication embedded for user login
--  Data sent and received from a server for user reviews and order, viewed in UI
--  Dashboard created separately for admin access and user access
-
-### Functions:-
-#### User
-- In the services section, list of services are given.
-- User csn choose any of the services from there.
-- Through routing, it'll lead them to login page
-- User dashboard will appear
-- There the user can place an order and give review
-- Orders placed will be showned servicelist
-- User reviews will appear in home page 
-#### Admin 
-- Only admin can access admin dashboard 
-- admin can see all the users who ordered  
-- admin can add another service which will show in UI
-- admin can also wish to make another perosn admin 
+- List of events in row will appear
+- User can choose one of the events and will be routed to booking page
+- Before booking, through private route, user will be routed to login page
+- Firebase google authentication for user login 
+- After login, user will go to registration page and register with providing their info
+- Then user will go to their registration page to see their refistered events
+- User can choose to cancel their registration from there too.
 
 ### Technology used:-
-- React JS, Bootstrap, Node JS, Express, Mongo DB, Firebase 
+- React JS 
+- Material UI
+- Node JS
+- Express
+- Mongo DB
+- Firebase 
+  
+### Dependencies:-
+- reatc router
+- react hook
+- react bootstrap
+
   
 
